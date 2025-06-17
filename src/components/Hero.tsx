@@ -4,8 +4,8 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section className=" px-6 lg:px-20 3xl:px-0 flex flex-col gap-20 max-container py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
-      <div className="hero-map"></div>
+    <section className=" px-6 lg:px-20 3xl:px-0 flex flex-col gap-20 mx-auto max-w-[1440px] py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
+      <div className="absolute right-0 top-0 h-screen w-screen bg-cover bg-center md:-right-28 xl:-top-60 bg-[url('/pattern-bg.png')]"></div>
 
       <div className="relative flex flex-col flex-1 z-20 xl:w-1/2">
         <Image
